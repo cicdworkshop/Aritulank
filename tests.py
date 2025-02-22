@@ -17,8 +17,12 @@ class TestUser(unittest.TestCase):
             {"start_date": "2018-01-01"},
             {"start_date": "2019-01-01"}                   
         ]
-
-
+        self.user.certifications = [
+            {"date": "2025-01-01"},
+            {"date": "2024-01-01"},
+            {"date": "2023-01-01"},
+            {"date": "2022-01-01"}
+        ]
     def test_sort_user_experience(self):
         """Test function: sort_user_experience
         """
